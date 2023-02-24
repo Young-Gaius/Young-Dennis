@@ -7,4 +7,26 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 80%;
+  background-color: rgb(240, 236, 236);
+}
+button {
+  display: block;
+  margin: 8px;
+  cursor: pointer;
+  background-color: yellow;
+  border: none;
+}
+.pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pricing div {
+  border: 1px solid;
+  margin: 12px;
+  padding: 5px;
+}
+.pricing div .title{
+background-color: lightgray;
 }
