@@ -30,3 +30,9 @@ button {
 .pricing div .title{
 background-color: lightgray;
 }
+footer p {
+    display: inline-block;
+}
+footer {
+    float: right;
+}
